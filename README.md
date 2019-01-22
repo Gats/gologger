@@ -23,6 +23,9 @@ Applogs - Used for logging http request and response logs
 # Examples
 
 l.AppLogs("This is a response message", "RESPONSE")
+
 l.AppLogs("This is a response message", "REQUEST")
+
 l.INFO("This is an information message")
+
 l.ERROR("This is an error message")
