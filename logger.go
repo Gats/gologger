@@ -22,7 +22,6 @@ func fileOpen(file string) *os.File {
 	if err != nil {
 		log.Panicf("error opening file: %v", err)
 	}
-	
 	return f
 }
 
@@ -53,7 +52,6 @@ func (l *Logger) AppLogs(message, mtype string) {
 	if _, err := f.WriteString(message); err != nil {
 		log.Printf("%v", err)
 	}
-
 }
 
 
