@@ -2,7 +2,7 @@
 A simple logging package for golang projects
 
 # Installation
-Package is go gettable using go get -u github.com/TrueAfrican/gologger
+Package is go gettable using go get -u github.com/trueafrican/gologger
 
 # Usage
 
