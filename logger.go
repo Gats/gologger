@@ -31,7 +31,7 @@ func (l *Logger) INFO(message string) {
 	defer f.Close()
 	log.SetOutput(f)
 	log.SetPrefix("INFO: ")
-    log.SetFlags(log.Ldate | log.Lmicroseconds)
+    	log.SetFlags(log.Ldate | log.Lmicroseconds)
 	log.Println(message)
 }
 
@@ -40,7 +40,7 @@ func (l *Logger) ERROR(message string) {
 	defer f.Close()
 	log.SetOutput(f)
 	log.SetPrefix("ERROR: ")
-    log.SetFlags(log.Ldate | log.Lmicroseconds)
+    	log.SetFlags(log.Ldate | log.Lmicroseconds)
 	log.Println(message)
 }
 
